@@ -1,0 +1,9 @@
+* Details
+Changes the password for the VNC service on MacOS.
+It'll prevent you from making passwords longer than 8 characters, since this is the limit the MacOS places.
+
+* Usage
+#+begin_src shell
+export VNCPassword="TestPass"
+./script.sh
+#+end_src
